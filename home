@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shylobot Suite v2.0</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            border: 2px solid black;
+            padding: 20px;
+            max-width: 800px;
+            width: 90%;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            font-weight: normal;
+        }
+
+        nav {
+            margin-top: 40px;
+        }
+
+        a {
+            display: block;
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: black;
+            text-decoration: none;
+            border-bottom: 1px solid black;
+            padding-bottom: 5px;
+            transition: color 0.3s, border-color 0.3s;
+        }
+
+        a:hover {
+            color: grey;
+            border-color: grey;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>shylobot suite v2.0</h1>
+        <h2>Machine learning algorithm that predicts the S&P500</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#suite">The Suite: Tools for Trading</a>
+            <a href="#testimonials">Testimonials</a>
+        </nav>
+    </div>
+</body>
+</html>
