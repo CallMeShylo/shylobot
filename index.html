@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Shylobot Suite v2.0</title>
+    <!-- Google Font for a robotic look -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -15,6 +17,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            position: relative;
         }
 
         .container {
@@ -26,6 +29,14 @@
             margin: auto;
         }
 
+        .header-text {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
         h1 {
             font-size: 3em;
             font-weight: bold;
@@ -35,6 +46,7 @@
             font-size: 1.5em;
             margin-bottom: 40px;
             font-weight: normal;
+            font-family: 'Orbitron', sans-serif; /* Robotic font */
         }
 
         nav {
@@ -73,6 +85,10 @@
     </style>
 </head>
 <body>
+    <div class="header-text">
+        state of the art - KQ
+    </div>
+
     <div class="container">
         <h1>shylobot suite v2.0</h1>
         <h2>Machine learning algorithm that predicts the S&P500</h2>
